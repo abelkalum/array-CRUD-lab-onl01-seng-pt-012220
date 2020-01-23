@@ -20,7 +20,8 @@ end
 
 def remove_element_from_end_of_array(array)
   friends = ["Koech", "Siria", "Caleb", "Stanley"]
-  
+  Felix = friends.pop
+  puts friends.inspect 
 end
 
 def remove_element_from_start_of_array(array)

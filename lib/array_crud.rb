@@ -42,5 +42,5 @@ end
 
 def retrieve_last_element_from_array(array)
   friends = ["Koech", "Siria", "Caleb", "Stanley"]
-  
+  friends[-1]
 end

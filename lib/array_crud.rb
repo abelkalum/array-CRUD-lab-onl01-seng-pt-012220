@@ -14,7 +14,8 @@ end
 
 def add_element_to_start_of_array(array, element)
   friends = ["Koech", "Siria", "Caleb", "Stanley"]
-  
+  friends.unshift("Mark")
+  puts friends.inspect
 end
 
 def remove_element_from_end_of_array(array)

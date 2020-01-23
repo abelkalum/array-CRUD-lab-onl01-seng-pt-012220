@@ -20,13 +20,14 @@ end
 
 def remove_element_from_end_of_array(array)
   friends = ["Koech", "Siria", "Caleb", "Stanley"]
-  Felix = friends.pop
+  Stan = friends.pop
   puts friends.inspect 
 end
 
 def remove_element_from_start_of_array(array)
   friends = ["Koech", "Siria", "Caleb", "Stanley"]
-  
+  lil_bub = famous_cats.shift
+  puts famous_cats.inspect
 end
 
 def retrieve_element_from_index(array, index_number)

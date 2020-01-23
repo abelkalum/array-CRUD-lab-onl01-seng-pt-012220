@@ -31,7 +31,7 @@ def remove_element_from_start_of_array(array)
 end
 
 def retrieve_element_from_index(array, index_number)
-  
+  friends = ["Koech", "Siria", "Caleb", "Stanley"]
   friends[0]
 end
 

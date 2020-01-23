@@ -9,13 +9,13 @@ end
 def add_element_to_end_of_array(array, element)
   array = ["wow", "I", "am", "really", "learning"]
   array << "Arrays"
-  puts friends.inspect
+  puts array.inspect
 end
 
 def add_element_to_start_of_array(array, element)
   array = ["I", "am", "really", "learning"]
-  friends.unshift("Wow")
-  puts friends.inspect
+  array.unshift("Wow")
+  puts array.inspect
 end
 
 def remove_element_from_end_of_array(array)

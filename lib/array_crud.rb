@@ -27,7 +27,7 @@ end
 def remove_element_from_start_of_array(array)
   friends = ["Koech", "Siria", "Caleb", "Stanley"]
   Koech = famous_cats.shift
-  puts famous_cats.inspect
+  puts friends.inspect
 end
 
 def retrieve_element_from_index(array, index_number)

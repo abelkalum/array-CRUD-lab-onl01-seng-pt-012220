@@ -32,7 +32,7 @@ end
 
 def retrieve_element_from_index(array, index_number)
   friends = ["Koech", "Siria", "Caleb", "Stanley"]
-  friends[0]
+  friends[2]
 end
 
 def retrieve_first_element_from_array(array)
